@@ -1,7 +1,7 @@
- ---
- layout: page
- title: Laboratorio di Informatica
- ---
+---
+layout: page
+title: Laboratorio di Informatica
+---
  
 ## Lezioni tradizionali
 
