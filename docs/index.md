@@ -11,10 +11,12 @@ title: Laboratorio di Informatica
 
 
 
-| Esercizio         | Soluzione                                                                               |
-| ---------------   | -------------                                                                           |
-| Creazione dataset | [creazione2.sas](https://gdv.github.io/laboratorio-informatica/Esercizi/creazione2.sas) |
-| [Altezze](https://github.io/gdv/laboratorio-informatica/testi/02-altezze.md) | [altezze.sas](https://github.io/gdv/laboratorio-informatica/Esercizi/altezze.sas)       |
-| [Regioni](testi/03-regioni) | [regioni.sas](Esercizi/regioni.sas) |
+| Esercizio                               | Soluzione                                 |
+| ---------------                         | -------------                             |
+| [Creazione dataset](testi/01-creazione) | [creazione2.sas](Esercizi/creazione2.sas) |
+| [Altezze](testi/02-altezze)             | [altezze.sas](Esercizi/altezze.sas)       |
+| [Regioni](testi/03-regioni)             | [regioni.sas](Esercizi/regioni.sas)       |
+| [Nascar](testi/nascar)                  | [gare1.sas](Esercizi/gare1.sas)           |
+|                                         |                                           |
 
 
