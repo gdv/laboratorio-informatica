@@ -14,7 +14,7 @@ title: Laboratorio di Informatica
 | Esercizio         | Soluzione                                                                               |
 | ---------------   | -------------                                                                           |
 | Creazione dataset | [creazione2.sas](https://gdv.github.io/laboratorio-informatica/Esercizi/creazione2.sas) |
-| Altezze           | [altezze.sas](https://github.io/gdv/laboratorio-informatica/Esercizi/altezze.sas)       |
-|                   |                                                                                         |
+| [Altezze](https://github.io/gdv/laboratorio-informatica/testi/02-altezze.md) | [altezze.sas](https://github.io/gdv/laboratorio-informatica/Esercizi/altezze.sas)       |
+| [Regioni](https://github.io/gdv/laboratorio-informatica/testi/03-regioni.md) | [regioni.sas](https://github.io/gdv/laboratorio-informatica/Esercizi/regioni.sas) |
 
 
