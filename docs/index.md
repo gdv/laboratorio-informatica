@@ -14,6 +14,7 @@
 | Esercizio         | Soluzione                                                                               |
 | ---------------   | -------------                                                                           |
 | Creazione dataset | [creazione2.sas](https://gdv.github.io/laboratorio-informatica/Esercizi/creazione2.sas) |
+| Altezze           | [altezze.sas](https://github.io/gdv/laboratorio-informatica/Esercizi/altezze.sas)       |
 |                   |                                                                                         |
 
 
