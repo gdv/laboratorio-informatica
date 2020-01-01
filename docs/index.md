@@ -24,6 +24,5 @@ title: Laboratorio di Informatica
 | [Satelliti](testi/satelliti)         | [satellite.sas](Esercizi/satellite.sas)   |
 | [Vento](testi/vento)                 | [vento.sas](Esercizi/vento.sas)           |
 | [Giappone](testi/giappone)           | [japan.sas](Esercizi/japan.sas)           |
-|                                      |                                           |
 
 
