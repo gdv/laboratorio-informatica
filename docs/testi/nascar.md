@@ -13,7 +13,7 @@ Il dataset [nascar](../dati/nascar.sas7bdat) contiene l’esito di 5 gare automo
 *  STATUS1-STATUS5: è uguale a `“Running”` se il pilota ha terminato la gara, altrimenti riporta la causa del ritiro.
 *  PREMIO1-PREMIO5: somma di denaro vinta al termine della gara.
 
-Notare che le variabili relative alla gara (GIRI, POSTO, PUNTI, BONUS, STATO, PREMIO) hanno valore mancante se il pilota non ha partecipato alla gara.
+Notare che le variabili relative alla gara (GIRI, POSTO, PUNTI, BONUS, STATUS, PREMIO) hanno valore mancante se il pilota non ha partecipato alla gara.
 
 1.  Per ogni pilota, calcolare i punti totali (intesi come somma di punti e bonus) ottenuti.
 2.  Per ogni pilota calcolare il numero medio (e deviazione standard) di punti totali ottenuti per ogni gara a cui ha partecipato.

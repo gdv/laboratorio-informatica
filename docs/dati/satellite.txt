@@ -1,0 +1,36 @@
+Big Brother  1 	36 	77 	52.2 	51 	54 
+Big Brother  2 	22 	297 	48.9 	48 	50
+Big Brother  3 	10 	150 	45.9 	44 	48
+Big Brother  9 	3 	12 	42.3 	39 	46
+Big Brother  14 25 	221 	50 	48 	51
+Big Brother  15 68 	287 	53.3 	53 	55
+Big Brother  21 23 	55 	48.3 	46 	49
+Big Brother  29 37 	127 	52.1 	50 	53
+Big Brother  31 49 	171 	53.1 	52 	55
+Mighty Mouse 1 	36 	81 	49.1 	47 	51
+Mighty Mouse 2 	22 	301 	45.3 	43 	46
+Mighty Mouse 3 	13 	150 	43.8 	40 	47
+Mighty Mouse 9 	3 	15 	39.7 	36 	42
+Mighty Mouse 14 22 	220 	46.6 	44 	48	
+Mighty Mouse 15 65 	285 	51.3 	50 	53	
+Mighty Mouse 21 26 	55 	46.6 	44 	48	
+Mighty Mouse 29 34 	129 	48.9 	47 	50	
+Mighty Mouse 31 52 	171 	51.2 	49 	53	
+Lowe Active  1 	35 	86 	51.5 	50 	54
+Lowe Active  2 	22 	304 	48.1 	46 	50
+Lowe Active  3 	17 	149 	46.7 	42 	49
+Lowe Active  9 	2 	18 	41.6 	37 	45
+Lowe Active  14 18 	219 	47.6 	45 	50
+Lowe Active  15 60 	281 	53.6 	52 	54
+Lowe Active  21 29 	55 	49.2 	48 	51
+Lowe Active  29 31 	132 	50.1 	49 	52
+Lowe Active  31 57 	173 	52.9 	48 	54
+Reference    1 	36 	70 	50.5 	49 	52
+Reference    2 	21 	292 	46.9 	46 	49
+Reference    3 	5 	151 	41.7 	39 	43
+Reference    9 	3 	8 	40.7 	38 	42
+Reference    14 30 	223 	49.8 	49 	51
+Reference    15 73 	293 	50 	49 	51
+Reference    21 18 	55 	45.5 	44 	47
+Reference    29 40 	121 	50.8 	49 	52
+Reference    31 44 	170 	51.4 	50 	54

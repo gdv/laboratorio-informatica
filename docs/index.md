@@ -11,12 +11,18 @@ title: Laboratorio di Informatica
 
 
 
-| Esercizio                               | Soluzione                                 |
-| ---------------                         | -------------                             |
-| [Creazione dataset](testi/01-creazione) | [creazione2.sas](Esercizi/creazione2.sas) |
-| [Altezze](testi/02-altezze)             | [altezze.sas](Esercizi/altezze.sas)       |
-| [Regioni](testi/03-regioni)             | [regioni.sas](Esercizi/regioni.sas)       |
-| [Nascar](testi/nascar)                  | [gare1.sas](Esercizi/gare1.sas)           |
-|                                         |                                           |
+| Esercizio                            | Soluzione                                 |
+| ---------------                      | -------------                             |
+| [Creazione dataset](testi/creazione) | [creazione2.sas](Esercizi/creazione2.sas) |
+| [Altezze](testi/altezze)             | [altezze.sas](Esercizi/altezze.sas)       |
+| [Regioni](testi/regioni)             | [regioni.sas](Esercizi/regioni.sas)       |
+| [Nascar](testi/nascar)               | [gare1.sas](Esercizi/gare1.sas)           |
+| [Nascar](testi/dieta)                | [dieta.sas](Esercizi/dieta.sas)           |
+| [Nascar](testi/auto)                 | [auto.sas](Esercizi/auto.sas)             |
+| [Nascar](testi/emergenze)            | [emergenze.sas](Esercizi/emergenze.sas)   |
+| [Nascar](testi/elezioni)             | [elezioni.sas](Esercizi/elezioni.sas)     |
+| [Nascar](testi/satelliti)            | [satelliti.sas](Esercizi/satelliti.sas)   |
+| [Nascar](testi/vento)                | [vento.sas](Esercizi/vento.sas)           |
+| [Nascar](testi/giappone)             | [giappone.sas](Esercizi/giappone.sas)     |
 
 
