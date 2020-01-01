@@ -11,8 +11,9 @@
 
 
 
- | Esercizio        | Soluzione        |
- | ---------------  | -------------    |
-
+| Esercizio         | Soluzione                                                                               |
+| ---------------   | -------------                                                                           |
+| Creazione dataset | [creazione2.sas](https://gdv.github.io/laboratorio-informatica/Esercizi/creazione2.sas) |
+|                   |                                                                                         |
 
 
