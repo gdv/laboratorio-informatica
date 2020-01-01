@@ -23,6 +23,7 @@ title: Laboratorio di Informatica
 | [Nascar](testi/elezioni)             | [elezioni.sas](Esercizi/elezioni.sas)     |
 | [Nascar](testi/satelliti)            | [satellite.sas](Esercizi/satellite.sas)   |
 | [Nascar](testi/vento)                | [vento.sas](Esercizi/vento.sas)           |
-| [Nascar](testi/giappone)             | [japan.sas](Esercizi/japan.sas) |
+| [Nascar](testi/giappone)             | [japan.sas](Esercizi/japan.sas)           |
+|                                      |                                           |
 
 
