@@ -1,3 +1,8 @@
+---
+layout: page
+title: Emergenze
+---
+
 Il file [FEMA.csv](../dati/FEMA.csv) contiene i dati relativi ad alcuni interventi eseguiti in seguito ad alcune emergenze negli Stati Uniti. I nomi di variabili sono contenuti nella prima riga del file.
 
 1.    Leggere i dati in ingresso e memorizzarli in un data set SAS permanente.

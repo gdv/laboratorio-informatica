@@ -1,3 +1,8 @@
+---
+layout: page
+title: Dieta
+---
+
 Utilizzando il file [dieta.csv](../dati/dieta.csv) nel formato CSV, le cui variabili sono CODICE NOME SQUADRA PESOINIZ PESOFIN ETA SESSO, si calcoli:
 
 1.  Media e deviazione standard del peso alla fine della cura, stratificato per squadra.

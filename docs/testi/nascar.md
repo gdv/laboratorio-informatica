@@ -1,3 +1,8 @@
+---
+layout: page
+title: Nascar
+---
+
 Il dataset [nascar](../dati/nascar.sas7bdat) contiene l’esito di 5 gare automobilistiche. Le variabili sono:
 
 *  ID: numero identificativo del pilota

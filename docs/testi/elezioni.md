@@ -1,3 +1,8 @@
+---
+layout: page
+title: Elezioni
+---
+
 Si analizzino i dati del file [elezioni.txt](../dati/elezioni.txt), rappresentati i voti espressi in Florida nell’elezione presidenziale del 2000. Le variabili sono: county, technology, columns, schede bianche, nulle, oltre ai voti raccolti dai 12 candidati, ovvero Bush, Gore, Browne, Nader, Harris, Hagelin, Buchanan, McReynolds, Phillips, Moorehead, Chote, McCarthy.
 
 1.    Calcolare il numero totale di voti raccolti da ogni candidato (escluse schede bianche e nulle).

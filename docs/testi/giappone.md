@@ -1,3 +1,8 @@
+---
+layout: page
+title: Giappone
+---
+
 Si richiede di scrivere un programma SAS per l’analisi dei dati presenti nel file [japan.zip](../dati/japan.zip) secondo i punti che seguono.
 
 I dati grezzi che si trovano nel file japan.csv riportano alcune rilevazioni relative ai livelli di radioattività misurati in Giappone nel periodo 9/3/2011 – 16/4/2011. Ogni osservazione è relativa ad una misurazione e le variabili sono presenti nella prima riga del file. Il file StationLocations.csv contiene id dati identificativi delle varie stazioni di rilevazione.

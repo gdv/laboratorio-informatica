@@ -1,4 +1,7 @@
-# Altezze
+---
+layout: page
+title: Altezze
+---
 
 Creare un dataset temporaneo di nome compito con variabili nome, cognome, datanascita, altezza, peso con dati presi da [altezze.txt](../dati/altezze.txt).
 

@@ -1,4 +1,8 @@
-# Regioni
+---
+layout: page
+title: Regioni
+---
+
 
 Si utilizzi il file [regioni.txt](../dati/regioni.txt) per ottenere i dati grezzi su cui lavorare:
 

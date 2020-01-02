@@ -1,3 +1,8 @@
+---
+layout: page
+title: Auto
+---
+
 Si richiede di scrivere un programma SAS per l’analisi dei [dati](../dati/auto.txt), secondo i seguenti punti. I dati grezzi che si trovano nel file rappresentano dei dati storici riguardanti alcuni dati di vari modelli di auto e sono associabili alle seguenti variabili:
 
 *  MPG: consumo medio misurato come miglia percorse con un gallone di benzina.
