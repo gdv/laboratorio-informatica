@@ -1,4 +1,4 @@
-Scrivere un programma SAS per l’analisi dei dati presenti nel file [satellite.txt](../dati.satellite.txt), secondo i seguenti punti. I dati grezzi che si trovano nel file rappresentano i risultati di prove di alcuni prodotti elettronici. I dati sono associabili alle seguenti variabili:
+Scrivere un programma SAS per l’analisi dei dati presenti nel file [satellite.txt](../dati/satellite.txt), secondo i seguenti punti. I dati grezzi che si trovano nel file rappresentano i risultati di prove di alcuni prodotti elettronici. I dati sono associabili alle seguenti variabili:
 
 *    PRODOTTO: il nome del prodotto a cui si riferisce l’osservazione.
 *    NUMSATELLITE: numero progressivo del satellite a cui si riferisce l’osservazione.

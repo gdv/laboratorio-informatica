@@ -1,6 +1,6 @@
 # Altezze
 
-Creare un dataset temporaneo di nome compito con variabili nome, cognome, datanascita, altezza, peso con dati presi da [altezze.txt](https://github.io/gdv/laboratorio-informatica/data/altezze.txt).
+Creare un dataset temporaneo di nome compito con variabili nome, cognome, datanascita, altezza, peso con dati presi da [altezze.txt](../dati/altezze.txt).
 
 1.  Importare i dati in un dataset permanente
 2.  Aggiungere una variabile BMI=peso/altezza<sup>2</sup> , dove l’altezza è in metri e il peso in kg.
