@@ -1,4 +1,4 @@
-libname a 'Z:\FIleSAS';
+libname a '/folders/myfolders';
 proc contents data=a.nascar;run;
 
 data verticale;

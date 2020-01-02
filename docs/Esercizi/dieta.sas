@@ -1,10 +1,10 @@
-libname es 'Z:\FileSAS';
+libname es '/folders/myfolders';
 
 /*
  * siccome i dati grezzi sono in formato csv, devo utilizzare le opzioni dlm e dsd
  */
 data es.peso;
-    infile 'Z:\FileSAS\peso.csv' dlm=',' dsd;
+    infile '/folders/myfolders/peso.csv' dlm=',' dsd;
     input codice nome$:40. squadra$ pesoiniziale pesofinale eta sesso$;
 run;
 

@@ -1,7 +1,7 @@
-libname corso 'z:\FileSAS'
+libname corso '/folders/myfolders';
 data corso.persone;
-    infile 'Z:\FileSAS\altezze.txt';
-    input nome$1-8 cognome$10-16 natoil DDMMYY8. altezza peso;
+    infile '/folders/myfolders/altezze.csv' dlm=',' dsd;
+    input nome$:99. cognome$:99. natoil DDMMYY8. altezza peso;
     bmi=peso/((altezza/100) ** 2);
     altezza_pollici=altezza/2.54;
 run;
@@ -21,4 +21,7 @@ run;
 data secondo;
     set corso.persone;
     if bmi < 20;
+run;
+
+proc print data=corso.persone;
 run;
