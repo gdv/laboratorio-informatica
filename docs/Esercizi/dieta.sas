@@ -4,7 +4,7 @@ libname es '/folders/myfolders';
  * siccome i dati grezzi sono in formato csv, devo utilizzare le opzioni dlm e dsd
  */
 data es.peso;
-    infile '/folders/myfolders/peso.csv' dlm=',' dsd;
+    infile '/folders/myfolders/dieta.csv' dlm=',' dsd;
     input codice nome$:40. squadra$ pesoiniziale pesofinale eta sesso$;
 run;
 
@@ -92,16 +92,16 @@ proc print data=percentuali;run;
     */
 
 /*
-Punto 7
+Punto 6
 
 costruisco un dataset contenente il numero di persone per squadra che non hanno
-raggiunto l'obiettivo
+raggiunto l'obiettivo (solo le squadre in cui almeno un componente non ha raggiunto l'obiettivo)
 */
 proc means data=es.peso n nway;
     var obiettivo;
     class squadra;
     where obiettivo=0;
-    output out=sommario n=numero;
+    output out=sommario n=nonraggiunto;
 run;
 
 proc sort data=sommario;
