@@ -1,0 +1,4 @@
+Mario    Rossi  31081995 170 65
+Giovanni Bianchi24091995 175 80
+Cinzia   Verdi  10101995 171 59
+Alessia  Neri   10111995 160 40
