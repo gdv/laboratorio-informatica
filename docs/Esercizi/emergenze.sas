@@ -1,12 +1,10 @@
 /* Leggere i dati in ingresso e memorizzarli in un data set SAS permanente. */
-libname esame 'Z:\FileSAS';
+libname esame '/folders/myfolders';
 data esame.fema;
-    infile 'Z:\FileSAS\FEMA.csv' firstobs=2 dlm=',' dsd;
-	input id data MMDDYY10. filler tipo $:99.  State $:99.  County $:99. Applicant $:999. 
-           EducationChar$ NumeroProgetti  importo :DOLLAR10.2;
-	drop filler;
+    infile '/folders/myfolders/FEMA2.csv' firstobs=2 dlm=';' dsd;
+	input id State $:99.  County $:99. Applicant $:999. 
+           EducationChar$ NumeroProgetti tipo $:99.  importo data YYMMDD10.;
 run;
-
 /* Stampare solo le prime 3 variabili del data set letto, visualizzando la data nel formato europeo (prima */
 /* il giorno e dopo il mese). */
 
@@ -25,7 +23,7 @@ run;
 proc means data=esame.fema mean max min;
     var importo;
     class county;
-    where data>='01/01/2008'd and data<'01/01/2009'd;
+    where data>='01Jan2008'd and data<'01Jan2009'd;
 run;
 /* oppure */
 proc means data=esame.fema mean max min;
@@ -93,21 +91,21 @@ proc print data=risultati;run;
 /* Leggere il file di dati FEMA2.txt contenente, per ogni tipologia di emergenza, */
 /* un valore di severità  associato. */
 data legenda;
-    infile 'Z:\FileSAS\FEMA2.txt';
-	input valore 1-2 tipo$:30.;
+    infile '/folders/myfolders/FEMA2.txt';
+	input valore 1-2 tipo$:99.;
 run;
 
 
-proc sort data=a.fema;
-    by IncidentType;
+proc sort data=esame.fema;
+    by tipo;
 run;
 proc sort data=legenda;
-    by IncidentType;
+    by tipo;
 run;
 
 /* punto 12 */
 data punto15;
-    merge legenda a.fema;
-    by IncidentType;
+    merge legenda esame.fema;
+    by tipo;
 run;
 
