@@ -3,7 +3,7 @@ punto 1
 */
 
 data esame;
-    infile 'Z:\FileSAS\dati.txt';
+    infile '/folders/myfolders/dati.txt';
     input prodotto$ 1-13 numsatellite altitudine azimuth medio minimo massimo 3.;
 run;
 proc print data=esame;

@@ -1,9 +1,9 @@
 /* ES. 1 */
 
-libname lib 'z:\FileSAS';
+libname lib '/folders/myfolders';
 
 data lib.japan;
-	infile 'z:\FileSAS\japan.csv' dsd dlm='09'x firstobs=2;
+	infile '/folders/myfolders/japan.csv' dsd dlm='09'x firstobs=2;
 	input station_cod  date yymmdd10. time_utc $10. sa ra;
 	if sa < 0 then sa=.;
 	if ra < 0 then ra=.;

@@ -1,6 +1,6 @@
-libname corso 'z:\FileSAS';
+libname corso '/folders/myfolders';
 data vento;
-        infile 'z:\FileSAS\vento.txt';
+        infile '/folders/myfolders/vento.txt';
         input anno 1-2 mese 3-4 giorno 5-6 rilevazione1-rilevazione12;
 run;
 

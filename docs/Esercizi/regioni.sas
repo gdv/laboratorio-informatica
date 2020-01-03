@@ -1,9 +1,9 @@
 /*
  * Salvo il file regioni.txt, poi leggo i dati
  */
-libname libreria 'Z:\FileSAS';
+libname libreria '/folders/myfolders';
 data libreria.regioni;
-    infile 'Z:\FileSAS\regioni.txt';
+    infile '/folders/myfolders/regioni.txt';
     input regione $:20. popolazione superficie;
 run;
 
