@@ -1,25 +1,15 @@
 data elezioni;
-        infile 'z:\FileSAS\fl2000.txt' dlm=',' dsd;
-        input county $:30. technology $:30. columns voti1-voti14;
+        infile '/folders/myfolders/fl2000.csv' dlm=';' dsd;
+        input county $:99. technology $:20. columns codice numero_voti;
         /* in voti1 si trovano le schede bianche,
                 in voti2 si trovano le nulle.
         */
 run;
 proc print data=elezioni;run;
 
-data elezioni2;
-        set elezioni;
-        array voti[14];
-        do codice=1 to 14;
-                numero_voti=voti[codice];
-                output;
-        end;
-        drop voti1-voti14;
-run;
-proc print data=elezioni2;run;
 
 /* punto 1 */
-proc means data=elezioni2 sum;
+proc means data=elezioni sum;
         var numero_voti;
         class codice;
         where codice > 2;
@@ -46,7 +36,7 @@ proc format;
 run;
 
 
-proc freq data=elezioni2;
+proc freq data=elezioni;
         format codice candidato.;
         weight numero_voti;
         tables  codice;
@@ -54,7 +44,7 @@ proc freq data=elezioni2;
 run;
 
 /* punto 3 */
-proc means data=elezioni2 noprint nway;
+proc means data=elezioni noprint nway;
         var numero_voti;
         class county;
         id codice;
@@ -66,11 +56,11 @@ proc print data=punto3;
 run;
 
 /* punto 4 */
-proc means data=elezioni2 sum nway;
+proc means data=elezioni sum nway;
         var numero_voti;
         class columns codice;
         output out=punto4c sum=totale_voti;
-proc means data=elezioni2 sum nway;
+proc means data=elezioni sum nway;
         var numero_voti;
         class technology codice;
         output out=punto4t sum=totale_voti;
@@ -88,7 +78,7 @@ proc means data=elezioni noprint nway;
 run;
 proc print data=punto5a;run;
 
-proc means data=elezioni2 noprint nway;
+proc means data=elezioni noprint nway;
     var numero_voti;
     class county;
     output out=punto5b sum=voti_totali;
@@ -112,36 +102,9 @@ proc means data=punto5c noprint nway;
 run;
 proc print data=punto5d;run;
 
-/* punto 6 con merge */
-proc means data=elezioni2 sum nway;
-    var numero_voti;
-    class county;
-    where codice > 2;
-    output out=validi sum=voti_validi;
-run;
-
-proc sort data=elezioni;
-    by county;
-run;
-
-proc sort data=validi;
-    by county;
-run;
-
-data punto6merge;
-    merge elezioni validi;
-    by county;
-    drop _type_ _freq_;
-run;
-
-proc means data=punto6merge n;
-    var columns;
-    where voti6/voti_validi >= 2/100;
-run;
-
-/* punto 6 con ods */
+/* punto 6 */
 ods trace on;
-proc freq data=elezioni2;
+proc freq data=elezioni;
     tables codice*county;
     weight numero_voti;
     where codice>2;
@@ -150,6 +113,6 @@ run;
 ods trace off;
 
 proc means data=punto6ods n;
-    where codice=6 and PercentCol >= 2;
+    where codice=6 and ColPercent >= 2;
     var codice;
 run;
