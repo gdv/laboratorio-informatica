@@ -3,7 +3,7 @@ layout: page
 title: Vento
 ---
 
-Si richiede di scrivere un programma SAS per l’analisi dei [dati](../dati/vento.zip) secondo i seguenti punti.
+Si richiede di scrivere un programma SAS per l’analisi dei [dati](../dati/vento.csv) secondo i seguenti punti.
 
 I dati grezzi che si trovano nel file rappresentano le velocità medie del vento registrate dal 1961 al 1978 in alcune stazioni metereologiche, nel seguente formato: ANNO, MESE, GIORNO, poi seguono le rilevazioni (per il giorno in esame) delle 12 stazioni metereologiche.
 

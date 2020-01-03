@@ -1,35 +1,25 @@
 libname corso '/folders/myfolders';
 data vento;
-        infile '/folders/myfolders/vento.txt';
-        input anno 1-2 mese 3-4 giorno 5-6 rilevazione1-rilevazione12;
+        infile '/folders/myfolders/vento.csv' dlm=',' dsd;
+        input anno mese giorno velocita stazione;
 run;
-
-/* per il punto 5 devo ristrutturare il dataset */
-data verticale;
-        set vento;
-        by anno;
-        array rilevazione[12];
-        do stazione=1 to 12;
-                velocita=rilevazione[stazione];
-                if velocita ne . then output;
-        end;
-        keep anno velocita stazione;
-run;
+	
 
 /* punto 2 */
 proc means data=vento n;
-    var rilevazione1;
+    var velocita;
+    where stazione = 1;
     class anno;
 run;
 
 /* oppure */
-proc freq data=corso.vento;
+proc freq data=vento;
     tables anno;
     where velocita ne .;
 run;
 
 /* punto 3 */
-proc means data=verticale2 nway noprint;
+proc means data=vento nway noprint;
     var velocita;
     class stazione;
     output out=punto4 mean=media;
@@ -42,14 +32,14 @@ run;
 proc print data=punto4b; var quale; run;
 
 /* punto 4 */
-proc freq data=verticale;
+proc freq data=vento;
     tables stazione*anno;
     weight velocita;
 run;
 
 /* punto 5 */
 ods trace on;
-proc freq data=verticale;
+proc freq data=vento;
     tables stazione*anno;
     weight velocita;
     ODS OUTPUT  Freq.Table1.CrossTabFreqs = dataset2;
