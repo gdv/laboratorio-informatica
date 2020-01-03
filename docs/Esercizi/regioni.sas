@@ -33,6 +33,6 @@ run;
 
 data medie;
     set medie;
-    file 'Z:\FileSAS\esportati.txt' dlm=';';
+    file '/folders/myfolders/esportati.txt' dlm=';';
     put regione popolazione superficie;
 run;
