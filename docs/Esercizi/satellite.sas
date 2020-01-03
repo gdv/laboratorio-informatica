@@ -3,10 +3,13 @@ punto 1
 */
 
 data esame;
-    infile '/folders/myfolders/dati.txt';
-    input prodotto$ 1-13 numsatellite altitudine azimuth medio minimo massimo 3.;
+    infile '/folders/myfolders/satellite.txt';
+    input prodotto $:30. numsatellite altitudine azimuth medio minimo massimo;
 run;
 proc print data=esame;
+run;
+
+proc means data=esame n nmiss;
 run;
 /*
 punto 2
@@ -42,9 +45,25 @@ proc sort data=eserc;
 run;
 
 /*
-punto 7
+punto 6
 */
-data punto9;
-    merge esame punto2;
-    by satellite;
+proc means nway data=nuovo mean;
+	var altitudine;
+	class numsatellite;
+	output out=altitudine mean=altitudine_media;
+run;
+
+proc sort data=altitudine;
+	by numsatellite;
+run;
+proc sort data=esame;
+	by numsatellite;
+run;
+
+data punto6;
+    merge esame altitudine;
+    by numsatellite;
+run;
+
+proc print data=punto6;
 run;

@@ -20,5 +20,4 @@ Risolvere i seguenti punti.
 1.    Calcolare media, deviazione standard e skewness della variabile minimo.
 1.    Aggiungere al dataset una variabile SCARTO che contenga la differenza fra MASSIMO e MINIMO.
 1.    Calcolare, per ogni satellite, il valore medio della variabile scarto, e stampare i satelliti in ordine crescente di tale valore medio.
-1.    Ristrutturare il dataset in modo da avere una osservazione per satellite e come variabili le altitudini e azimuth dei vari satelliti. Quindi la prima osservazione dovrebbe contenere i dati: 1 36 77 36 81 35 86 36 70
-1.    Aggiungere al dataset iniziale una variabile di nome ALTEZZA_MEDIA contenente i dati ottenuti al punto 2 relativi alla variabile ALTITUDINE. Notare che lo stesso valore deve essere aggiunto a tutte le osservazioni che si riferiscono allo stesso satellite.
+1.    Aggiungere al dataset iniziale una variabile di nome ALTITUDINE_MEDIA contenente i dati ottenuti al punto 2 relativi alla variabile ALTITUDINE. Notare che lo stesso valore deve essere aggiunto a tutte le osservazioni che si riferiscono allo stesso satellite.
