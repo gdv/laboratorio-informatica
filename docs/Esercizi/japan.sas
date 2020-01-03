@@ -93,7 +93,7 @@ run;
 /* ES. 10 */
 
 data lib.stations;
-	infile 'z:\FileSAS\StationLocations.csv' dsd dlm=';'  firstobs=2;
+	infile '/folders/myfolders/StationLocations.csv' dsd dlm=';'  firstobs=2;
 	input Station_ID Station_COD Site_ID Site_Name_EN $ :20. Prefecture_ID Prefecture_Name_EN $ :20. Station_Name_EN $ :40. Station_Name2_EN $ :90. Latitude Longitude;
 run;
 
