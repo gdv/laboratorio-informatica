@@ -12,9 +12,9 @@ run;
 
 data corso.persone;
     set corso.persone;
-    if bmi<18.5 then tipo='sottopeso';
+    if bmi<18.5 then tipo='inferiore';
     else if bmi ge 18.5 and bmi <20 then tipo='normopeso';
-    else if bmi ge 20 and bmi <25 then tipo='sovrappeso';
+    else if bmi ge 20 and bmi <25 then tipo='superiore';
     else tipo='obeso';
 run;
 
