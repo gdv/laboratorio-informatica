@@ -3,8 +3,8 @@ punto 1
 */
 libname lib '/folders/myfolders';
 data lib.esame;
-    infile '/folders/myfolders/auto.txt';
-    input MPG 1-6 CILINDRI 7-9 LUNGHEZZA 10-15 POTENZA 16-21 PESO 22-28 ACCELERAZIONE 29-34 ANNO 35-38 ORIGINE 39-41 MODELLO$ 42-86;
+    infile '/folders/myfolders/mpg.csv' dlm=',' dsd;
+    input MPG CILINDRI LUNGHEZZA POTENZA PESO ACCELERAZIONE ANNO ORIGINE MODELLO :$99;
 run;
 
 
