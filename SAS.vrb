@@ -1,0 +1,15 @@
+\frametitle{Retain}
+  \begin{itemize}
+  \item
+    \verb+RETAIN+ mantiene il valore di una variabile per osservazioni diverse
+  \item
+    senza \verb+RETAIN+: variabile MISSING
+  \item
+    con \verb+RETAIN+: mantiene valore precedente
+  \item
+    Somma $\Rightarrow$ \verb+RETAIN+
+  \item
+    \verb!a + (5 * b)!
+  \item
+    \verb!a+1;!
+  \end{itemize}
