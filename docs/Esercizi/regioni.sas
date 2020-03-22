@@ -34,5 +34,5 @@ run;
 data medie;
     set medie;
     file '/folders/myfolders/esportati.txt' dlm=';';
-    put regione popolazione superficie;
+    put regione :$99. popolazione superficie;
 run;
