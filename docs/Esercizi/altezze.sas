@@ -1,6 +1,6 @@
 libname corso '/folders/myfolders';
 data corso.persone;
-    infile '/folders/myfolders/altezze.csv' dlm=',' dsd;
+    infile '/folders/myfolders/altezze.csv' dlm=',' dsd firstobs=2;
     input nome$:99. cognome$:99. natoil DDMMYY8. altezza peso;
     bmi=peso/((altezza/100) ** 2);
     altezza_pollici=altezza/2.54;
