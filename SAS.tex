@@ -352,64 +352,6 @@ formatcom=\color{orange}}
 \end{frame}
 
 
-\begin{frame}[containsverbatim]\frametitle{Stampa}
-  \VerbatimInput{code/p15.sas}
-  \begin{itemize}
-  \item
-    Stampa il contenuto dell'ultimo data set creato.
-  \end{itemize}\end{frame}
-
-\begin{frame}[containsverbatim]\frametitle{Stampa}
-  \VerbatimInput{code/p16.sas}
-  \begin{itemize}
-  \item
-    Stampa solo le variabili specificate
-  \end{itemize}\end{frame}
-
-\begin{frame}[containsverbatim]\frametitle{Stampa}
-  \VerbatimInput{code/p17.sas}
-  \begin{itemize}
-  \item
-    Usa la variabile \texttt{cognome} al posto di \texttt{obs}.
-  \item
-    Definisce il titolo.
-  \end{itemize}\end{frame}
-
-\begin{frame}[containsverbatim]\frametitle{Stampa}
-  \VerbatimInput{code/p17a.sas}
-  \begin{itemize}
-  \item
-    \verb+WHERE+ definisce su quali osservazioni agire
-  \end{itemize}\end{frame}
-
-\begin{frame}[containsverbatim]\frametitle{Etichette di stampa}
-  \VerbatimInput{code/p34.sas}
-
-  \vspace{1em}
-  L'etichetta della variabile deve essere dentro il \verb!DATA! step
-\end{frame}
-
-
-
-
-\begin{frame}[containsverbatim]\frametitle{Formati di stampa}
-  \begin{itemize}
-  \item
-    \verb!FORMAT variabile 16.;!
-  \item
-    \verb!FORMAT variabile DATE7.;!
-  \item
-    \verb!FORMAT variabile 8.2;!
-  \item
-    La \verb!FORMAT! deve essere dentro la \verb!PROC PRINT!
-  \end{itemize}
-\end{frame}
-
-\begin{frame}[containsverbatim]\frametitle{Formati di stampa}
-  \VerbatimInput{code/p17b.sas}
-\end{frame}
-
-
 
 \begin{frame}[containsverbatim]\frametitle{Riepilogo data set}
   \VerbatimInput{code/p19.sas}
@@ -520,94 +462,152 @@ all'interno di un data step.
   \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]\frametitle{Retain}
+% \begin{frame}[fragile]\frametitle{Retain}
+%   \begin{itemize}
+%   \item
+%     \verb+RETAIN+ mantiene il valore di una variabile per osservazioni diverse
+%   \item
+%     senza \verb+RETAIN+: variabile MISSING
+%   \item
+%     con \verb+RETAIN+: mantiene valore precedente
+%   \item
+%     Somma $\Rightarrow$ \verb+RETAIN+
+%   \item
+%     \verb!a + (5 * b)!
+%   \item
+%     \verb!a+1;!
+%   \end{itemize}
+% \end{frame}
+
+
+
+
+% \begin{frame}[containsverbatim]\frametitle{Sequenza di variabili}
+%   \begin{itemize}
+%   \item
+%     \verb+temp1 temp2 temp3 temp4 temp5+
+%   \item
+%     \verb+temp1-temp5+
+%   \item
+%     Sono variabili individuali
+%   \end{itemize}\end{frame}
+
+
+% \begin{frame}[containsverbatim]\frametitle{Array}
+%   \begin{itemize}
+%   \item
+%     Elemento array = nome alternativo variabile
+%   \item
+%     \verb!temp[1]!
+%   \item
+%     nome collettivo dell'array + indice
+%   \item
+%     \verb!array temp[5];!
+%   \item
+%     Gli array devono essere \alert{dichiarati} con il numero di elementi.
+%   \end{itemize}\end{frame}
+
+
+% \begin{frame}[containsverbatim]\frametitle{Array}
+%   \begin{itemize}
+%   \item
+%     \texttt{temp[1]} singolo elemento dell'array
+%   \item
+%     \texttt{temp} nome array
+%   \item
+%     \verb!array temp[5];!
+%   \item
+%     Associa le variabili \verb!temp1-temp5! agli elementi dell'array \verb!temp!.
+%   \item
+%     \verb!array temp[5] a b c d e;!
+%   \item
+%     Associa le variabili \verb!a b c d e! agli elementi dell'array \verb!temp!.
+%   \end{itemize}\end{frame}
+
+
+% \begin{frame}[containsverbatim]\frametitle{Ciclo}
+%   \begin{itemize}
+%   \item
+%     Ripetere pi{\`u} volte delle istruzioni.
+%   \item
+%     numero di volte = contatore = variabile dedicata
+%   \item
+%     Ciclo \verb+DO+
+%   \end{itemize}
+%   \VerbatimInput{code/p18.sas}
+% \end{frame}
+
+
+
+% \begin{frame}[containsverbatim]\frametitle{Gestione variabili}
+%   \begin{itemize}
+%   \item
+%     Il corpo di un data set viene ripetuto per ogni osservazione del data set originario.
+%   \item
+%     Il contenuto delle variabili vengono distrutte all'inizio dell'esecuzione di ogni osservazione.
+%   \item
+%     \verb!i+1;!
+%   \item
+%     \verb!RETAIN variabile;!
+%   \end{itemize}\end{frame}
+
+
+\begin{frame}[containsverbatim]\frametitle{Stampa}
+  \VerbatimInput{code/p15.sas}
   \begin{itemize}
   \item
-    \verb+RETAIN+ mantiene il valore di una variabile per osservazioni diverse
+    Stampa il contenuto dell'ultimo data set creato.
+  \end{itemize}\end{frame}
+
+\begin{frame}[containsverbatim]\frametitle{Stampa}
+  \VerbatimInput{code/p16.sas}
+  \begin{itemize}
   \item
-    senza \verb+RETAIN+: variabile MISSING
+    Stampa solo le variabili specificate
+  \end{itemize}\end{frame}
+
+\begin{frame}[containsverbatim]\frametitle{Stampa}
+  \VerbatimInput{code/p17.sas}
+  \begin{itemize}
   \item
-    con \verb+RETAIN+: mantiene valore precedente
+    Usa la variabile \texttt{cognome} al posto di \texttt{obs}.
   \item
-    Somma $\Rightarrow$ \verb+RETAIN+
+    Definisce il titolo.
+  \end{itemize}\end{frame}
+
+\begin{frame}[containsverbatim]\frametitle{Stampa}
+  \VerbatimInput{code/p17a.sas}
+  \begin{itemize}
   \item
-    \verb!a + (5 * b)!
-  \item
-    \verb!a+1;!
-  \end{itemize}
+    \verb+WHERE+ definisce su quali osservazioni agire
+  \end{itemize}\end{frame}
+
+\begin{frame}[containsverbatim]\frametitle{Etichette di stampa}
+  \VerbatimInput{code/p34.sas}
+
+  \vspace{1em}
+  L'etichetta della variabile deve essere dentro il \verb!DATA! step
 \end{frame}
 
 
 
 
-\begin{frame}[containsverbatim]\frametitle{Sequenza di variabili}
+\begin{frame}[containsverbatim]\frametitle{Formati di stampa}
   \begin{itemize}
   \item
-    \verb+temp1 temp2 temp3 temp4 temp5+
+    \verb!FORMAT variabile 16.;!
   \item
-    \verb+temp1-temp5+
+    \verb!FORMAT variabile DATE7.;!
   \item
-    Sono variabili individuali
-  \end{itemize}\end{frame}
-
-
-\begin{frame}[containsverbatim]\frametitle{Array}
-  \begin{itemize}
+    \verb!FORMAT variabile 8.2;!
   \item
-    Elemento array = nome alternativo variabile
-  \item
-    \verb!temp[1]!
-  \item
-    nome collettivo dell'array + indice
-  \item
-    \verb!array temp[5];!
-  \item
-    Gli array devono essere \alert{dichiarati} con il numero di elementi.
-  \end{itemize}\end{frame}
-
-
-\begin{frame}[containsverbatim]\frametitle{Array}
-  \begin{itemize}
-  \item
-    \texttt{temp[1]} singolo elemento dell'array
-  \item
-    \texttt{temp} nome array
-  \item
-    \verb!array temp[5];!
-  \item
-    Associa le variabili \verb!temp1-temp5! agli elementi dell'array \verb!temp!.
-  \item
-    \verb!array temp[5] a b c d e;!
-  \item
-    Associa le variabili \verb!a b c d e! agli elementi dell'array \verb!temp!.
-  \end{itemize}\end{frame}
-
-
-\begin{frame}[containsverbatim]\frametitle{Ciclo}
-  \begin{itemize}
-  \item
-    Ripetere pi{\`u} volte delle istruzioni.
-  \item
-    numero di volte = contatore = variabile dedicata
-  \item
-    Ciclo \verb+DO+
+    La \verb!FORMAT! deve essere dentro la \verb!PROC PRINT!
   \end{itemize}
-  \VerbatimInput{code/p18.sas}
 \end{frame}
 
-
-
-\begin{frame}[containsverbatim]\frametitle{Gestione variabili}
-  \begin{itemize}
-  \item
-    Il corpo di un data set viene ripetuto per ogni osservazione del data set originario.
-  \item
-    Il contenuto delle variabili vengono distrutte all'inizio dell'esecuzione di ogni osservazione.
-  \item
-    \verb!i+1;!
-  \item
-    \verb!RETAIN variabile;!
-  \end{itemize}\end{frame}
+\begin{frame}[containsverbatim]\frametitle{Formati di stampa}
+  \VerbatimInput{code/p17b.sas}
+\end{frame}
 
 
 
@@ -615,89 +615,89 @@ all'interno di un data step.
   \VerbatimInput{code/p20.sas}
 \end{frame}
 
-\begin{frame}\frametitle{Ordinare = Partizionare}
-  \begin{itemize}
-  \item
-    Stesso valore = osservazioni consecutive = insieme nella partizione
-  \item
-    \texttt{FIRST.variabile} =
-    prima osservazione dell'insieme
-  \item
-    \texttt{LAST.variabile} =
-    ultima osservazione dell'insieme
-  \end{itemize}\end{frame}
+% \begin{frame}\frametitle{Ordinare = Partizionare}
+%   \begin{itemize}
+%   \item
+%     Stesso valore = osservazioni consecutive = insieme nella partizione
+%   \item
+%     \texttt{FIRST.variabile} =
+%     prima osservazione dell'insieme
+%   \item
+%     \texttt{LAST.variabile} =
+%     ultima osservazione dell'insieme
+%   \end{itemize}\end{frame}
 
-\begin{frame}\frametitle{Uso di first  e last}
-  \begin{itemize}
-  \item
-    Sono predicati
-  \item
-    Vengono utilizzati in \texttt{IF}
-  \end{itemize}\end{frame}
+% \begin{frame}\frametitle{Uso di first  e last}
+%   \begin{itemize}
+%   \item
+%     Sono predicati
+%   \item
+%     Vengono utilizzati in \texttt{IF}
+%   \end{itemize}\end{frame}
 
-\begin{frame}[containsverbatim]\frametitle{Esempio}
-  \VerbatimInput{code/p21.sas}
-\end{frame}
-
-
-
-\begin{frame}\frametitle{Raggruppare osservazioni 1}
-  \begin{itemize}
-  \item
-    Una variabile \alert{chiave}
-  \item
-    Ordinare il data set con \texttt{BY chiave}
-  \item
-    Gestire un contatore \texttt{i} per contare la posizione dell'osservazione
-    corrente all'interno del gruppo.
-  \end{itemize}\end{frame}
+% \begin{frame}[containsverbatim]\frametitle{Esempio}
+%   \VerbatimInput{code/p21.sas}
+% \end{frame}
 
 
-\begin{frame}\frametitle{Raggruppare osservazioni 2}
-  \begin{itemize}
-  \item
-    \texttt{FIRST.chiave}: azzerare  \texttt{i}
-  \item
-    Ogni osservazione: scrivere il dato letto nella i-esima posizione di un array,
-    incrementare  \texttt{i}
-  \item
-    \texttt{LAST.chiave}: \texttt{OUTPUT}
-  \end{itemize}\end{frame}
+
+% \begin{frame}\frametitle{Raggruppare osservazioni 1}
+%   \begin{itemize}
+%   \item
+%     Una variabile \alert{chiave}
+%   \item
+%     Ordinare il data set con \texttt{BY chiave}
+%   \item
+%     Gestire un contatore \texttt{i} per contare la posizione dell'osservazione
+%     corrente all'interno del gruppo.
+%   \end{itemize}\end{frame}
 
 
-\begin{frame}[containsverbatim]\frametitle{Raggruppare osservazioni 3}
-  \small
-  Provincia\hspace{2ex}temp\hspace{1ex} i\hspace{1ex} FIRST.provincia\hspace{1ex} LAST.provincia
-\begin{verbatim}
-Milano    23
-Milano,   20
-Milano,   22
-Milano,   12
-Milano,   .
-Pavia,    24
-Pavia,    21
-Pavia,    19
-Pavia,    24
-Pavia,    21
-\end{verbatim}
-\end{frame}
+% \begin{frame}\frametitle{Raggruppare osservazioni 2}
+%   \begin{itemize}
+%   \item
+%     \texttt{FIRST.chiave}: azzerare  \texttt{i}
+%   \item
+%     Ogni osservazione: scrivere il dato letto nella i-esima posizione di un array,
+%     incrementare  \texttt{i}
+%   \item
+%     \texttt{LAST.chiave}: \texttt{OUTPUT}
+%   \end{itemize}\end{frame}
 
-\begin{frame}[containsverbatim]\frametitle{Raggruppare osservazioni 3}
-  \small
-  Provincia\hspace{2ex}temp\hspace{1ex} i\hspace{1ex} FIRST.provincia\hspace{1ex} LAST.provincia
-\begin{verbatim}
-Milano    23  1       V
-Milano    20  2
-Milano    22  3
-Milano    12  4
-Milano    .   5                   V
-Pavia     24  1       V
-Pavia     21  2
-Pavia     19  3
-Pavia     24  4
-Pavia     21  5                   V
-\end{verbatim}
-\end{frame}
+
+% \begin{frame}[containsverbatim]\frametitle{Raggruppare osservazioni 3}
+%   \small
+%   Provincia\hspace{2ex}temp\hspace{1ex} i\hspace{1ex} FIRST.provincia\hspace{1ex} LAST.provincia
+% \begin{verbatim}
+% Milano    23
+% Milano,   20
+% Milano,   22
+% Milano,   12
+% Milano,   .
+% Pavia,    24
+% Pavia,    21
+% Pavia,    19
+% Pavia,    24
+% Pavia,    21
+% \end{verbatim}
+% \end{frame}
+
+% \begin{frame}[containsverbatim]\frametitle{Raggruppare osservazioni 3}
+%   \small
+%   Provincia\hspace{2ex}temp\hspace{1ex} i\hspace{1ex} FIRST.provincia\hspace{1ex} LAST.provincia
+% \begin{verbatim}
+% Milano    23  1       V
+% Milano    20  2
+% Milano    22  3
+% Milano    12  4
+% Milano    .   5                   V
+% Pavia     24  1       V
+% Pavia     21  2
+% Pavia     19  3
+% Pavia     24  4
+% Pavia     21  5                   V
+% \end{verbatim}
+% \end{frame}
 
 
 \begin{frame}[containsverbatim]\frametitle{Nuovi formati}
@@ -960,19 +960,6 @@ Pavia     21  5                   V
     \verb+WEIGHT+: variabile quantitativa
   \item
     \verb+TABLES+: variabili qualitative
-  \end{itemize}
-\end{frame}
-
-
-\begin{frame}[containsverbatim]\frametitle{Opzioni}
-  \VerbatimInput{code/p31a.sas}
-  \begin{itemize}
-  \item
-    \verb+CHISQ+: $\chi^2$
-  \item
-    \verb+CL+: Intervalli di confidenza
-  \item
-    \verb+MEASURES+: misure di associazione
   \end{itemize}
 \end{frame}
 

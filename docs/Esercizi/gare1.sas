@@ -27,7 +27,7 @@ run;
 3.Come il punto precedente, ma solo relativamente 
   alle gare completate.
 */
-proc means data=a.gareauto sum;
+proc means data=a.gareauto sum std;
 	var punti_totali_gara;
 	class id;
 	where status_gara eq 'Running';

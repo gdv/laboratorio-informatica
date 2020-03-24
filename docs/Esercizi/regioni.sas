@@ -3,7 +3,7 @@
  */
 libname libreria '/folders/myfolders';
 data libreria.regioni;
-    infile '/folders/myfolders/regioni.txt';
+    infile '/folders/myfolders/regioni.csv' dlm = ',' firstobs = 2;
     input regione $:20. popolazione superficie;
 run;
 
