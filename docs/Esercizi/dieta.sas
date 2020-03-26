@@ -51,7 +51,7 @@ run;
 
 proc means data=es.peso n nway noprint;
     var obiettivo;
-    by squadra;
+    class squadra;
     output out=totali n=componenti sum(obiettivo)=raggiunto;
 run;
 
@@ -68,6 +68,7 @@ run;
 /*
 * Soluzione alternativa che non tiene conto del valore specifico di obiettivo;
 * L'idea è valida in generale;
+    */
 
 proc sort data=es.peso;
     by squadra;
@@ -89,7 +90,11 @@ data percentuali;
     percentuale=raggiunto/componenti*100;
 run;
 proc print data=percentuali;run;
-    */
+
+proc sort data=totali;
+    by descending percentuale;
+proc print data=totali;
+run;
 
 /*
 Punto 6
