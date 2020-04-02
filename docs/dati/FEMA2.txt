@@ -1,15 +1,15 @@
-7 Coastal Storm
-19Dam/Levee Break
-6 Drought
-14 Earthquake
-1 Fire
-16Flood
-9 Freezing
-12Hurricane
-10Other
-9 Severe Ice Storm
-11Severe Storm(s)
-3 Snow
-13Terrorist
-14Tornado
-15Typhoon
+7;Coastal Storm
+19;Dam/Levee Break
+6;Drought
+14;Earthquake
+1;Fire
+16;Flood
+9;Freezing
+12;Hurricane
+10;Other
+9;Severe Ice Storm
+11;Severe Storm(s)
+3;Snow
+13;Terrorist
+14;Tornado
+15;Typhoon

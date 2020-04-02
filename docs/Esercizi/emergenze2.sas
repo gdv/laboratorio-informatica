@@ -45,8 +45,8 @@ proc print data=risultati;run;
 /* Leggere il file di dati FEMA2.txt contenente, per ogni tipologia di emergenza, */
 /* un valore di severità  associato. */
 data legenda;
-    infile '/folders/myfolders/FEMA2.txt';
-	input valore 1-2 tipo$:99.;
+    infile '/folders/myfolders/FEMA2.txt' dlm=';' dsd;
+	input valore tipo :$99.;
 run;
 
 
