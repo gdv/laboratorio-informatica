@@ -1,8 +1,8 @@
 data elezioni;
-        infile '/folders/myfolders/fl2000.csv' dlm=';' dsd;
+        infile '/folders/myfolders/fl2000.csv' dlm=',' dsd firstobs=2;
         input county $:99. technology $:20. columns codice numero_voti;
-        /* in voti1 si trovano le schede bianche,
-                in voti2 si trovano le nulle.
+        /* codice = 1 => schede bianche,
+           codice = 2 => nulle
         */
 run;
 proc print data=elezioni;run;
@@ -51,11 +51,12 @@ proc means data=elezioni noprint nway;
         output out=punto3 maxid=candidato_vincente max=voti;
 run;
 proc print data=punto3;
-        var candidato_vincente voti;
+        var county candidato_vincente voti;
         format candidato_vincente candidato.;
 run;
 
 /* punto 4 */
+/* si potrebbe anche usare una proc freq */
 proc means data=elezioni sum nway;
         var numero_voti;
         class columns codice;
@@ -67,40 +68,44 @@ proc means data=elezioni sum nway;
 run;
 
 /* punto 5 */
-data elezioni;
-    set elezioni;
-    non_validi=voti1+voti2;
+/* prima viene costruito un dataset dove il numero di voti non validi di ogni contea viene calcolato */
+proc means data=elezioni sum;
+        var numero_voti;
+        class county;
+        where codice <= 2;
+        output out = nonvalidi sum = nonvalidi;
 run;
-proc means data=elezioni noprint nway;
-    var non_validi;
-    id county;
-    output out=punto5a maxid=dove;
-run;
-proc print data=punto5a;run;
 
-proc means data=elezioni noprint nway;
-    var numero_voti;
-    class county;
-    output out=punto5b sum=voti_totali;
+/* costruiamo un dataset con il numero totale di voti di ogni contea */
+proc means data=elezioni sum;
+        var numero_voti;
+        class county;
+        output out = voti_totale sum = voti;
 run;
-proc print data=punto5b;run;
 
-proc sort data=elezioni; by county; run;
-proc sort data=punto5b; by county; run;
+/* adesso fondo i due dataset per avere un unico dataset con voti totali e voti non validi */
+
+
+proc sort data=nonvalidi; by county; run;
+proc sort data=voti_totale; by county; run;
 
 data punto5c;
-    merge punto5b elezioni;
+    merge nonvalidi voti_totale;
     by county;
-    percentuale_non_validi=non_validi/voti_totali;
+    percentuale_non_validi=nonvalidi/voti;
 run;
 proc print data=punto5c;run;
 
+/* nel nuovo dataset posso usare un maxid per estrarre le informazioni richieste */
+
 proc means data=punto5c noprint nway;
-    var percentuale_non_validi;
+    var percentuale_non_validi nonvalidi;
     id county;
-    output out=punto5d maxid=dove;
+    output out=punto5d maxid(percentuale_non_validi)=dove_percentuale maxid(nonvalidi)=dove_assoluto;
 run;
-proc print data=punto5d;run;
+proc print data=punto5d;
+     var dove_percentuale dove_assoluto;
+run;
 
 /* punto 6 */
 ods trace on;
