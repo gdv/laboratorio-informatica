@@ -18,7 +18,7 @@ run;
 
 /* Determinare come i fondi siano stati ripartiti, sia in valore assoluto che in */
 /* percentuale, rispetto allo stato e al fatto che il richiedente sia nel campo */
-/* dell'istruzione (Education Applicant). */
+/* dell'istruzione. */
 
 proc freq data=esame.fema;
     tables EducationChar*State;

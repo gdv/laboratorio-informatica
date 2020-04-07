@@ -25,9 +25,10 @@ run;
 proc print data=esame.fema;
     format data DDMMYY10.;
     format educationchar $edu.;
+    where state = 'Texas';
 	run;
 
-/* Calcolare media, massimo e minimo della variabile importo */
+/* Calcolare media, massimo e minimo della variabile amount */
 /* stratificata per County. */
 proc means data=esame.fema mean max min;
     var importo;
