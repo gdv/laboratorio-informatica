@@ -18,8 +18,8 @@ data temp;
 run;
 
 proc format;
-     format $edu value 'No' = '0'
-                       'Yes' = '1';
+     value $edu 'No' = '0'
+                'Yes' = '1';
 run;
 
 proc print data=esame.fema;
