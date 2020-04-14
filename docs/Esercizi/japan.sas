@@ -30,16 +30,3 @@ data japanSa;
 	if sa ne .;
 run;
 proc print data=japanSa; run;
-
-/* ES. 5 */
-proc means data=lib.japan mean nway;
-	var ra;
-	class date station_cod;
-	output out=japanMeanStrat mean=raMedia;
-run;
-
-/* viene aggiunto un data step se  SAS 9.1*/
-data japanRaMean;
-	set japanMeanStrat;
-	keep date station_cod raMedia;
-run;

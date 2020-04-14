@@ -15,7 +15,7 @@ run;
 /* oppure */
 proc freq data=vento;
     tables anno;
-    where velocita ne .;
+    where stazione = 1; 
 run;
 
 /* punto 3 */
@@ -48,6 +48,6 @@ ods trace off;
 
 data dataset2;
     set dataset2;
-    if percent >= 1 and stazione ne . and anno ne .;
+    if percent >= 0.6 and stazione ne . and anno ne .;
     keep anno stazione percent;
 run;

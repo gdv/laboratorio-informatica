@@ -3,6 +3,7 @@
 Si richiede di scrivere un programma SAS per l’analisi dei dati presenti nei file 
 multe.csv e codici.csv  secondo i punti che seguono.
 
+Si può importare il file di dati.
 */
 
 /*
@@ -29,7 +30,7 @@ run;
 
 data b.multe;
     set b.multe;
-    anno = Marked_Time / 100;
+    anno = int(Marked_Time / 100);
 run;
 
 /*
@@ -46,7 +47,7 @@ run;
 Calcolare media, minimo e deviazione standard di FINE AMOUNT stratificato per RP STATE PLATE.
 */
 
-proc means data=b.multe mean min stderr nway;
+proc means data=b.multe mean min std nway;
     var fine_amount;
     class rp_state_plate;
     output out=medie mean=multa_media;
@@ -103,6 +104,7 @@ run;
 
 /*
 Leggere i dati del file codici.csv in un dataset temporaneo.
+Si può importare il file di dati.
 */
 
 /*
