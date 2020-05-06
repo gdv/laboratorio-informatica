@@ -1,0 +1,219 @@
+Station_ID;Station_COD;Site_ID;Site_Name_EN;Prefecture_ID;Prefecture_Name_EN;Station_Name_EN;Station_Name2_EN;Latitude;Longitude
+1;1010000005;1;Hokkaido;1;Hokkaido;Kamoenai;Kamoenai Kamoenai Village;43.14740644;140.421104
+2;1010000001;1;Hokkaido;1;Hokkaido;Kayanuma;Kayanuma Tomari Village;43.057419;140.498604
+3;1010000006;1;Hokkaido;1;Hokkaido;Chatsu;Chatsu Tomari Village;43.04297639;140.50916
+4;1010000007;1;Hokkaido;1;Hokkaido;Herokaruusu;Herokaruusu Tomari Village;43.03769941;140.5230482
+5;1010000008;1;Hokkaido;1;Hokkaido;Horikappu Jinja;Horikappu Jinja Tomari Village;43.03186676;140.5222153
+6;1010000009;1;Hokkaido;1;Hokkaido;Meteorological Obsevatory;The Meteorological Obsevatory of Kyowa Town;43.03131158;140.5369363
+7;1010000002;1;Hokkaido;1;Hokkaido;Hattari;Hattari Kyowa Town;43.01603644;140.5688791
+8;1010000003;1;Hokkaido;1;Hokkaido;Minami-Horoni;Minami-Horoni Kyowa Town;42.98187503;140.6124891
+9;1010000004;1;Hokkaido;1;Hokkaido;Iwanai;Iwanai Iwanai Town;42.97937341;140.510553
+10;1020000026;2;Aomori;2;Aomori;Sunagomata;Sunagomata Higasidoori Village;41.27708125;141.3305775
+11;1020000010;2;Aomori;2;Aomori;Odanosawa;Odanosawa Higashidoori Village;41.22569868;141.4008525
+12;1020000011;2;Aomori;2;Aomori;Oippe;Oippe Higashidoori Village;41.15681839;141.3853012
+13;1020000012;2;Aomori;2;Aomori;Chikagawa;Chikagawa Mutu City;41.19792189;141.2789177
+14;1020000025;2;Aomori;2;Aomori;Yokohama Town office;Yokohama Town office Yokohama Town;41.0831408;141.2476288
+15;1020000005;2;Aomori;2;Aomori;Fukkoshi;Fukkoshi Yokohama Town;41.02821473;141.2464265
+16;1020000004;2;Aomori;2;Aomori;Tomari;Tomari Rokkasho Village;41.08793502;141.3914152
+17;1020000001;2;Aomori;2;Aomori;Obuchi;Obuchi Rokkasho Village;40.96516876;141.3714192
+18;1020000002;2;Aomori;2;Aomori;Chitose-daira;Chitose-daira Rokkasho Village;40.88740268;141.2858736
+19;1020000003;2;Aomori;2;Aomori;Hiranuma;Hiranuma Rokkasho Village;40.87518058;141.3669774
+20;1020000024;2;Aomori;2;Aomori;Noheji Town office;Noheji Town office Noheji Town;40.86462191;141.1289439
+21;1020000006;2;Aomori;2;Aomori;Aomori;Aomori Aomori City;40.83017137;140.7917493
+22;1020000023;2;Aomori;2;Aomori;Touhoku Branch office;Touhoku Branch office Touhoku Town;40.77841074;141.2180113
+23;1020000022;2;Aomori;2;Aomori;Touhoku Town office;Touhoku Town office Touhoku Town;40.72852846;141.2575488
+24;1020000021;2;Aomori;2;Aomori;Misawa City hall;Misawa City hall Misawa City;40.68027778;141.3694841
+25;1040000001;3;Miyagi;4;Miyagi;Onagawa;Onagawa Onagawa town;38.4468555;141.446418
+26;1040000002;3;Miyagi;4;Miyagi;Koyadori;Koyadori Onagawa Town;38.4068616;141.4986368
+27;1040000003;3;Miyagi;4;Miyagi;Iigohama;Iigohama Onagawa Town;38.3974179;141.4806665
+28;1040000005;3;Miyagi;4;Miyagi;Yoriiso;Ishinomaki City - Yoriiso;38.3907535;141.5228852
+29;1040000004;3;Miyagi;4;Miyagi;Samenoura;Ishinomaki City - Samenoura;38.3829755;141.4881665
+30;1040000013;3;Miyagi;4;Miyagi;Kodumi;Ishinomaki City - Kotsumi;38.3742813;141.4592806
+31;1040000006;3;Miyagi;4;Miyagi;Yagawa;Ishinomaki City - Yagawa;38.3660332;141.4881673
+32;1070000013;4;Fukushima;7;Fukushima;Kiyohashi;Namie Town - Kyohashi;37.49724647;141.0160332
+33;1070000012;4;Fukushima;7;Fukushima;Namie;Namie Town - Namie;37.49407951;140.9907296
+34;1070000011;4;Fukushima;7;Fukushima;Tanashio;Namie Town - Tanashio;37.49152494;141.029671
+35;1070000026;4;Fukushima;7;Fukushima;Ukedo;Namie Town - Ukedo;37.47441531;141.0340041
+36;1070000025;4;Fukushima;7;Fukushima;Kami-Hatori;Futaba Town - Kamihatori;37.45438833;140.9809527
+37;1070000018;4;Fukushima;7;Fukushima;Shinzan;Futaba Town - Shinzan;37.45427748;140.9978957
+38;1070000010;4;Fukushima;7;Fukushima;Kooriyama;Futaba Town - Kooriyama;37.4482787;141.0238938
+39;1070000009;4;Fukushima;7;Fukushima;Yamada;Futaba Town - Yamada;37.43139116;140.9878414
+40;1070000008;4;Fukushima;7;Fukushima;Ottozawa;Ottozawa Okuma Town;37.40939421;141.0281443
+41;1070000007;4;Fukushima;7;Fukushima;Ono;Ono Ookuma;37.4068941;140.9803705
+42;1070000024;4;Fukushima;7;Fukushima;Minamidai;Minamidai Ookuma town;37.40658878;141.017173
+43;1070000006;4;Fukushima;7;Fukushima;Mukaihata;Mukaihata Okuma Town;37.39572921;141.0042297
+44;1070000023;4;Fukushima;7;Fukushima;Kumagawa;Town Ookuma Kumagawa;37.38403653;141.0272283
+45;1070000017;4;Fukushima;7;Fukushima;Yonomori;Yonomori Tomioka Town;37.36470559;140.9953428
+46;1070000005;4;Fukushima;7;Fukushima;Tomioka;Tomioka Tomioka Town;37.34109768;141.0058703
+47;1070000004;4;Fukushima;7;Fukushima;Hotokehama;Hotokehama Tomioka Town;37.33682056;141.0226466
+48;1070000003;4;Fukushima;7;Fukushima;Kamikooriyama;Kamikooriyama Tomioka Town;37.33205556;140.9756389
+49;1070000022;4;Fukushima;7;Fukushima;Shimokooriyama;Tomiokacho;37.32634947;141.0141199
+50;1070000021;4;Fukushima;7;Fukushima;Matsudate;Matsudate Naraha town;37.30723977;140.9689298
+51;1070000002;4;Fukushima;7;Fukushima;Namikura;Namikura Naraha Town;37.30676845;141.0227028
+52;1070000001;4;Fukushima;7;Fukushima;Shigeoka;Shigeoka Naraha Town;37.29960204;140.9987328
+53;1070000016;4;Fukushima;7;Fukushima;Yamadaoka;Yamadaoka Naraha Town;37.25816274;140.9965943
+54;1070000020;4;Fukushima;7;Fukushima;Futatsunuma;Futatsunuma Hirono town;37.23374993;141.0015668
+55;1080000032;5;Ibaraki;8;Ibaraki;Kume;Kume Hitatioota City;36.53731694;140.477226
+56;1080000031;5;Ibaraki;8;Ibaraki;Nemoto;Nemoto Hitachioomiya City;36.52703961;140.4352857
+57;1080000029;5;Ibaraki;8;Ibaraki;Mayumi;Mayumi Hitatioota City;36.52398831;140.5697192
+58;1080000017;5;Ibaraki;8;Ibaraki;Isobe;Isobe Hitatioota City;36.51621018;140.5383325
+59;1080000028;5;Ibaraki;8;Ibaraki;Onuma;Onuma Hitachi City;36.53371063;140.6291573
+60;1080000016;5;Ibaraki;8;Ibaraki;Kuji;Kuji Hitachi City;36.50287979;140.611105
+61;1080000001;5;Ibaraki;8;Ibaraki;Ishigami;Ishigami Tokai;36.48732521;140.571664
+62;1080000002;5;Ibaraki;8;Ibaraki;Toyooka;Toyooka Tokai Village;36.47899318;140.6022175
+63;1080000003;5;Ibaraki;8;Ibaraki;Funaishikawa;Funaishikawa Tokai;36.46760444;140.5544435
+64;1080000005;5;Ibaraki;8;Ibaraki;Oshinobe;Oshinobe Tokai Village;36.45010699;140.569443
+65;1080000006;5;Ibaraki;8;Ibaraki;Muramatsu;Muramatsu Tokai-mura;36.44955213;140.5961074
+66;1080000030;5;Ibaraki;8;Ibaraki;Uridura;City Uridura Naka;36.49982084;140.4436193
+67;1080000025;5;Ibaraki;8;Ibaraki;Nukada;City Nukata Naka;36.49121222;140.5197234
+68;1080000018;5;Ibaraki;8;Ibaraki;Kadobe;Kadobe Naka City;36.48871191;140.4841716
+69;1080000024;5;Ibaraki;8;Ibaraki;Motokomezaki;Motokomezaki Naka City;36.48232508;140.5472209
+70;1080000026;5;Ibaraki;8;Ibaraki;Kounosu;City Kounosu Naka;36.46871361;140.4633412
+71;1080000004;5;Ibaraki;8;Ibaraki;Yokobori;City Yokobori Naka;36.46538204;140.5200024
+72;1080000019;5;Ibaraki;8;Ibaraki;Sugaya;Sugaya Naka City;36.444551;140.5000054
+73;1080000027;5;Ibaraki;8;Ibaraki;Godai;Godai Naka City;36.42483019;140.4744526
+74;1080000022;5;Ibaraki;8;Ibaraki;Sawa;Sawa Hitachinaka City;36.43927434;140.5300024
+75;1080000007;5;Ibaraki;8;Ibaraki;Mawatari;Mawatari Hitachinaka City;36.41149955;140.571388
+76;1080000012;5;Ibaraki;8;Ibaraki;Hitachinaka;Hitachinaka Hitachinaka City;36.39677921;140.5924971
+77;1080000013;5;Ibaraki;8;Ibaraki;Ajigaura;Ajigaura Hitachinaka City;36.38733605;140.6074953
+78;1080000015;5;Ibaraki;8;Ibaraki;Horiguchi;Horiguchi. Hitachinaka City;36.38650081;140.5150062
+79;1080000023;5;Ibaraki;8;Ibaraki;Yanagisawa;Sawa Yanagi Hitachinaka City;36.35761731;140.569723
+80;1080000014;5;Ibaraki;8;Ibaraki;Ishikawa;Ishikawa. Mito;36.39205401;140.4258462
+81;1080000037;5;Ibaraki;8;Ibaraki;Yoshizawa;Sawa Yoshi Mito City;36.33317311;140.4622337
+82;1080000020;5;Ibaraki;8;Ibaraki;Oba;Oba Mito City;36.32984119;140.5194514
+83;1080000033;5;Ibaraki;8;Ibaraki;Isohama;Isohama Oarai Town;36.31762234;140.5783349
+84;1080000008;5;Ibaraki;8;Ibaraki;Onuki;Town Ooarai Onuki;36.30845677;140.5525035
+85;1080000009;5;Ibaraki;8;Ibaraki;Hiroura;Hiroura town Ibaraki;36.29317957;140.5108415
+86;1080000036;5;Ibaraki;8;Ibaraki;Yatabe;Yatabe Ibaraki town;36.2915116;140.4464037
+87;1080000021;5;Ibaraki;8;Ibaraki;Ebisawa;Ebisawa town Ibaraki;36.25901575;140.4594597
+88;1080000034;5;Ibaraki;8;Ibaraki;Tasaki;Tasaki Hokota City;36.25512976;140.5208431
+89;1080000010;5;Ibaraki;8;Ibaraki;Tsukuriya;Tsukuriya Hokota City;36.23846443;140.5108449
+90;1080000011;5;Ibaraki;8;Ibaraki;Araji;Araji Hokota City;36.23041101;140.5469537
+91;1080000038;5;Ibaraki;8;Ibaraki;Kamitoda;Kamitoda Hokota City;36.20846621;140.4722383
+92;1080000035;5;Ibaraki;8;Ibaraki;Momiyama;Momiyama Hokota City;36.20041399;140.5508437
+93;1080000039;5;Ibaraki;8;Ibaraki;Tokushuku;Tokushuku Hokota City;36.18680296;140.5061249
+94;1140000003;6;Kanagawa;14;Kanagawa;Tonomachi;Tonomachi Kawasaki Ward;35.53825548;139.7542744
+95;1140000002;6;Kanagawa;14;Kanagawa;Ukishima;Ukishima Kawasaki Ward;35.52825702;139.7667736
+96;1140000005;6;Kanagawa;14;Kanagawa;Oshima;Oshima Kawasaki Ward;35.52603349;139.7128889
+97;1140000004;6;Kanagawa;14;Kanagawa;Shiohama;Shiohama Kawasaki Ward;35.52520063;139.7414978
+98;1140000001;6;Kanagawa;14;Kanagawa;Chidori;Chidori Kawasaki Ward;35.52287369;139.7527082
+99;1140000012;6;Kanagawa;14;Kanagawa;Nishihemi;Nishihemi Yokosuka City;35.27995183;139.6481745
+100;1140000011;6;Kanagawa;14;Kanagawa;Hinode Town;Hinode Town Yokosuka City;35.2793959;139.6765052
+101;1140000009;6;Kanagawa;14;Kanagawa;Uraga;Uraga Yokosuka City;35.24995436;139.7134465
+102;1140000007;6;Kanagawa;14;Kanagawa;Funagura;Funagura Yokosuka City;35.24134438;139.694559
+103;1140000008;6;Kanagawa;14;Kanagawa;Sahara;Sahara Yokosuka City;35.23717827;139.6892817
+104;1140000006;6;Kanagawa;14;Kanagawa;Kurihama;Kurihama Yokosuka City;35.23574722;139.6966167
+105;1140000010;6;Kanagawa;14;Kanagawa;Hairando;Hairando Yokosuka City;35.22412426;139.6848377
+106;1140000013;6;Kanagawa;14;Kanagawa;Nagasawa;Nagasawa Yokosuka City;35.20412668;139.6728947
+107;1150000005;7;Niigata;15;Niigata;Katsuyama;Katsuyama Kariwa village;37.44467165;138.6295905
+108;1150000004;7;Niigata;15;Niigata;Kariwa;Kariwa Kariwa Village;37.4252298944;138.6209805889
+109;1150000008;7;Niigata;15;Niigata;Akadamachigata;Akadamachigata Kariwa Village;37.4146758833;138.6432003111
+110;1150000003;7;Niigata;15;Niigata;Shimo-Takamachi;Simo-Takamachi Kariwa Village;37.4091206722;138.6073710806
+111;1150000007;7;Niigata;15;Niigata;Nishiyama;Nishiyama Kashiwazaki City;37.457726125;138.6659754083
+112;1150000006;7;Niigata;15;Niigata;Miyagawa;Miyagawa Kashiwazaki City;37.4564474278;138.61375895
+113;1150000002;7;Niigata;15;Niigata;Arahama;Arahama Kashiwazaki City;37.4063426028;138.5801516222
+114;1150000009;7;Niigata;15;Niigata;Doai;Doai Kashiwazaki City;37.3932891333;138.5990387528
+115;1150000001;7;Niigata;15;Niigata;Kashiwazaki-shigai;Kashiwazaki kashiwazaki City;37.3680136972;138.5587662694
+116;1150000010;7;Niigata;15;Niigata;Power Station-North;Power Station-North;37.4308333333;138.6116666667
+117;1150000011;7;Niigata;15;Niigata;Power Station-South;Power Station-South;37.4175;138.6011111111
+118;1170000009;8;Ishikawa;17;Ishikawa;Tsuchikawa;Tsuchikawa Nanao City;37.1115244444;136.8115119167
+119;1170000010;8;Ishikawa;17;Ishikawa;Otsu;Oodu Nanao City;37.0694247444;136.846724475
+120;1170000008;8;Ishikawa;17;Ishikawa;Kazanashi;Kazanashi Shika Town;37.1407166944;136.686658525
+121;1170000005;8;Ishikawa;17;Ishikawa;Kumano;Kumano Shika Town;37.0892838667;136.7668452611
+122;1170000004;8;Ishikawa;17;Ishikawa;Fukura;Fukura Shika Town;37.080941875;136.7275885528
+123;1170000002;8;Ishikawa;17;Ishikawa;Noumi;Noumi Shika Town;37.0704309111;136.7796369028
+124;1170000007;8;Ishikawa;17;Ishikawa;Goritoge;Goritoge Shika Town;37.0519883917;136.7654642944
+125;1170000003;8;Ishikawa;17;Ishikawa;Akasumi;Akasumi Shika Town;37.0499595472;136.7315618917
+126;1170000001;8;Ishikawa;17;Ishikawa;Shika;Shika Shika Town;37.026177525;136.762854975
+127;1170000006;8;Ishikawa;17;Ishikawa;Tatsunokuchi;Tatsunokuti Authority (comparative);36.4297369806;136.5337216389
+128;1180000021;9;Fukui/Kyoto;18;Fukui;Kouno;Kouno Minami-Echizen Town;35.8248000611;136.0685090417
+129;1180000003;9;Fukui/Kyoto;18;Fukui;Tateishi;Tateishi Tsuruga City;35.7581429611;136.0232396028
+130;1180000002;9;Fukui/Kyoto;18;Fukui;Urasoko;Urasoko Tsuruga City;35.7395340944;136.0274068778
+131;1180000006;9;Fukui/Kyoto;18;Fukui;Shiraki;Shiraki Tsuruga City;35.7312006611;135.9782462278
+132;1180000007;9;Fukui/Kyoto;18;Fukui;Shiraki pass;Shiraki pass Tsuruga City;35.7245348306;135.9774133444
+133;1180000001;9;Fukui/Kyoto;18;Fukui;Tsuruga;Tsuruga Tsuruga City;35.6426027083;136.0574071889
+134;1180000004;9;Fukui/Kyoto;18;Fukui;Nyuu;Nyuu Mihama Town;35.71161995;135.9679703611
+135;1180000005;9;Fukui/Kyoto;18;Fukui;Takenami;Takenami Mihama Town;35.6945391583;135.9785255861
+136;1180000022;9;Fukui/Kyoto;18;Fukui;Sakajiri;Sakajiri Mihama Town;35.6198266;135.9610299639
+137;1180000012;9;Fukui/Kyoto;18;Fukui;Otomi;Otomi Takahama Town;35.5359418083;135.5060613333
+138;1180000013;9;Fukui/Kyoto;18;Fukui;Kounoura;Kounoura Takahama Town;35.5220545972;135.4930081944
+139;1180000025;9;Fukui/Kyoto;18;Fukui;Yamanaka;Yamanaka Takahama Town;35.5198314444;135.467733525
+140;1180000011;9;Fukui/Kyoto;18;Fukui;Ogurui;Ogurui Takahama Town;35.5153892417;135.5121724972
+141;1180000023;9;Fukui/Kyoto;18;Fukui;Anojiri;Anojiri Obama City;35.5320566694;135.7646563833
+142;1180000008;9;Fukui/Kyoto;18;Fukui;Obama;Obama Obama City;35.4959481944;135.7457692389
+143;1180000010;9;Fukui/Kyoto;18;Fukui;Miyadome;Miyadome Ohi Town;35.5312232083;135.6563308389
+144;1180000009;9;Fukui/Kyoto;18;Fukui;Hitsuhama;Hitsuhama Ohi Town;35.5273345944;135.64605385
+145;1180000024;9;Fukui/Kyoto;18;Fukui;Nagai;Nagai Ohi Town;35.4773382333;135.6416104667
+146;1260000001;9;Fukui/Kyoto;26;Kyoto;Oyama;Oyama Maizuru City;35.5486888944;135.4508736222
+147;1260000004;9;Fukui/Kyoto;26;Kyoto;Shiokumi;Shiokumi Maizuru City;35.5184422417;135.4521796139
+148;1260000005;9;Fukui/Kyoto;26;Kyoto;Okayasu;Okayasu Maizuru City;35.4981942306;135.4380145417
+149;1260000002;9;Fukui/Kyoto;26;Kyoto;Kichisaka;Kichisaka Maizuru City;35.4864183972;135.4627342361
+150;1260000003;9;Fukui/Kyoto;26;Kyoto;Kurahashi;Kurahashi Maizuru City;35.4570604167;135.3931861528
+151;1260000006;9;Fukui/Kyoto;26;Kyoto;Oitomi;Oitomi Ayabe City;35.4384516917;135.4866211694
+152;1220000018;10;Shizuoka;22;Shizuoka;Ogasa branch;Ogasa branch Kikugawa City;34.6944328778;138.0900034333
+153;1220000017;10;Shizuoka;22;Shizuoka;Daitou branch;Daitou branch Kakegawa City;34.6666579306;138.0550076722
+154;1220000008;10;Shizuoka;22;Shizuoka;Jitougata primary school;Jitougata primaty school Makinohara City;34.6374993972;138.1938833917
+155;1220000016;10;Shizuoka;22;Shizuoka;Hamaokakita primary school;Hamaokakita primary school Omaezaki City;34.6686045972;138.1361111639
+156;1220000009;10;Shizuoka;22;Shizuoka;Ｗeather observation station;Omaezaki City Ｗeather observation station;34.6386082472;138.1319458361
+157;1220000013;10;Shizuoka;22;Shizuoka;monitoring center;Omaezaki City monitoring center;34.6386082472;138.1319458361
+158;1220000002;10;Shizuoka;22;Shizuoka;Nakamachi;Nakamachi Omaezaki City;34.6380526306;138.1266685833
+159;1220000005;10;Shizuoka;22;Shizuoka;Sakurasan Ward;Sakurasan Ward Omaezaki City;34.6367288167;138.1568322694
+160;1220000003;10;Shizuoka;22;Shizuoka;Sakuragaike community hall;Sakuragaike community hall Omaezaki City;34.6366643917;138.1419449028
+161;1220000014;10;Shizuoka;22;Shizuoka;Kusabue;Kusabue Omaezaki City;34.634998125;138.1461112083
+162;1220000001;10;Shizuoka;22;Shizuoka;Shirasuna;Shirasuna Omaezaki City;34.6299979333;138.1225025444
+163;1220000004;10;Shizuoka;22;Shizuoka;Uenohara;Uenohara Omaezaki City;34.6269436778;138.1491667694
+164;1220000006;10;Shizuoka;22;Shizuoka;Hiraba;Hiraba Omaezaki City;34.6213887833;138.1577770917
+165;1220000015;10;Shizuoka;22;Shizuoka;Shinkango;Shinkango Omaezaki City;34.6155562972;138.1616657361
+166;1220000007;10;Shizuoka;22;Shizuoka;Shirowa primary school;Shirowa primary school Omaezaki City;34.6116688417;138.1899960611
+167;1270000013;11;Osaka;27;Osaka;Kamikosaka primary school;Higashiosaka municipal Kamikosaka primary scool Station;34.6530016083;135.5848002028
+168;1270000014;11;Osaka;27;Osaka;UTR-Kinki-North;North point of Kinki University Atomic Energy Research Instirute Station;34.6495076111;135.5873500556
+169;1270000015;11;Osaka;27;Osaka;UTR-Kinki-South;South point of Kinki University Atomic Energy Research Instirute Station;34.6487743556;135.5871000917
+170;1270000012;11;Osaka;27;Osaka;Kinki University-Ground;The athletic field Station of Kinki University;34.6487160472;135.5880083472
+171;1270000006;11;Osaka;27;Osaka;Kumatori Town office;Kumatori Town office Station;34.4013404583;135.3558203667
+172;1270000003;11;Osaka;27;Osaka;Yamanotedai-No.1 Park;Yamanotedai-No.1 Park Station;34.3955300194;135.3546372
+173;1270000002;11;Osaka;27;Osaka;Kumatori-Nishi primary school;Kumatori town Nishi primary school Station;34.3943410111;135.3441717528
+174;1270000004;11;Osaka;27;Osaka;Atom-kyoudou nursery school;Atom-kyoudou nursery school Station;34.3898001389;135.3532179056
+175;1270000001;11;Osaka;27;Osaka;Kumatori OFC;Osaka prefectural Kumatori off-site-center Station;34.3876420167;135.3501932194
+176;1270000005;11;Osaka;27;Osaka;Kumatori-Minami primary school;Kumatori town Minami primary school Station;34.3838425917;135.3558204194
+177;1270000008;11;Osaka;27;Osaka;Hineno high school;Osaka prefectural Hineno high scool Station;34.3896637083;135.3387917194
+178;1270000007;11;Osaka;27;Osaka;Hineno filtration plant;Izumisano municipal Hineno filtration plant Station;34.3871974611;135.3424829194
+179;1270000009;11;Osaka;27;Osaka;Sano ｓupporting school;Osaka prefectural Sano supporting school Station;34.3828870167;135.3473962611
+180;1270000010;11;Osaka;27;Osaka;Hineno primary school;Izumisano municipal Hineno primary scool Station;34.3802316278;135.3366555
+181;1270000011;11;Osaka;27;Osaka;Ooike athletic field;Izumisano municipal Oike athletic field Station;34.37906535;135.3521846778
+182;1330000002;12;Okayama/Tottori;33;Okayama;Akawase;Akawase Kagamino Town;35.3198300722;133.9587049278
+183;1330000001;12;Okayama/Tottori;33;Okayama;Ningyotoge;Ningyoutoge Kagamino Town;35.3133031556;133.9319321722
+184;1330000003;12;Okayama/Tottori;33;Okayama;Ten-no;Ten-no Kagamino Town;35.2998322889;133.942595525
+185;1310000001;12;Okayama/Tottori;33;Tottori;Kijiyama;Kijiyama Misasa Town;35.3176072389;133.8887112611
+186;1320000009;13;Shimane;32;Shimane;Owashi;Owashi Matsue City;35.5533963556;133.0501654667
+187;1320000005;13;Shimane;32;Shimane;Kataku;Kataku Matsue City;35.5428401333;132.983229225
+188;1320000024;13;Shimane;32;Shimane;Tayu;Tayu Matsue City;35.5378403056;132.9723973139
+189;1320000002;13;Shimane;32;Shimane;Mitsu;Mitsu Matsue City;35.5358976583;133.0287799083
+190;1320000004;13;Shimane;32;Shimane;Fukada-kita;Fukada-kita Matsue City;35.5317308889;132.9979503083
+191;1320000023;13;Shimane;32;Shimane;Kami-koubu;Kami-koubu Matsue City;35.5270102417;133.0426675278
+192;1320000003;13;Shimane;32;Shimane;Koura;Koura Matsue City;35.5245088;132.9779528417
+193;1320000006;13;Shimane;32;Shimane;Kita-koubu;Kita-koubu Matsue City;35.523121475;133.0229479722
+194;1320000007;13;Shimane;32;Shimane;Sadahongou;Sadahongou Matsue City;35.5195102111;132.9968398528
+195;1320000001;13;Shimane;32;Shimane;Nishi-hamasada;Nishi-hamasada Matsue City;35.4747931556;133.0129507611
+196;1320000008;13;Shimane;32;Shimane;Suetsugu;Suetsugu Matsue City;35.4678508722;133.048780075
+197;1380000031;14;Ehime;38;Ehime;Ikatagoshi;Ikatagoshi Ikata Town;33.5013409139;132.342657175
+198;1380000003;14;Ehime;38;Ehime;Minatoura;Minatoura Ikata Town;33.4883482528;132.3545591556
+199;1380000032;14;Ehime;38;Ehime;Kawanagata;Kawanagata Ikata Town;33.4836203639;132.3368470944
+200;1380000001;14;Ehime;38;Ehime;Kuchogoshi;Kuchogoshi Ikata Town;33.4816336833;132.3091753167
+201;1380000002;14;Ehime;38;Ehime;Kucho;Kucho Ikata Town;33.4762843333;132.3101614
+202;1380000035;14;Ehime;38;Ehime;Taisei;Taisei Ikata Town;33.4730641361;132.2755690111
+203;1380000033;14;Ehime;38;Ehime;Toyonoura;Toyonoura Ikata Town;33.4719546944;132.3233405583
+204;1380000034;14;Ehime;38;Ehime;Kashu;Kashu Ikata Town;33.4647321889;132.2877901611
+205;1410000009;15;Saga/Nagasaki;41;Saga;Sakibe;Sakibe Karatsu City;33.5355510333;129.8608414972
+206;1410000011;15;Saga/Nagasaki;41;Saga;Kyoudomarisaki;Kyoudomarisaki Karatsu City;33.4765200722;129.8257759444
+207;1410000003;15;Saga/Nagasaki;41;Saga;Kushi;Kushi Genkai Town;33.5163421194;129.853550775
+208;1410000001;15;Saga/Nagasaki;41;Saga;Imamura;Imamura Genkai Town;33.5138421167;129.8393853889
+209;1410000010;15;Saga/Nagasaki;41;Saga;Hokawaduura;Hokawaduura Genkai Town;33.513584025;129.8479151889
+210;1410000002;15;Saga/Nagasaki;41;Saga;Hirao;Hirao Genkai Town;33.4960662694;129.8456629861
+211;1420000001;15;Saga/Nagasaki;41;Nagasaki;Takasimamachi;Takashimamati;33.4482914194;129.7616153028
+212;1460000004;16;Kagoshima;46;Kagoshima;Minato;Minato Satsuma-sendai City;31.8515104111;130.2019080917
+213;1460000001;16;Kagoshima;46;Kagoshima;Gumisaki;Gumisaki Satsuma-sendai City;31.8395672167;130.199130825
+214;1460000007;16;Kagoshima;46;Kagoshima;Kodaira;Kodaira Satsuma-sendai City;31.8276238833;130.1949647722
+215;1460000005;16;Kagoshima;46;Kagoshima;Takae;Takae Satsuma-sendai City;31.8237368583;130.2513491972
+216;1460000003;16;Kagoshima;46;Kagoshima;Yorita;Yorita Satsuma-sendai City;31.8154024972;130.1810772167
+217;1460000002;16;Kagoshima;46;Kagoshima;Ueno;Ueno Satsuma-sendai City;31.8140141;130.1969094472
+218;1460000006;16;Kagoshima;46;Kagoshima;Monitoring center;Satsuma-sendai monitoring center Satsuma-sendai City;31.812905675;130.3063435889
