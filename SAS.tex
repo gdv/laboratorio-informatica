@@ -1,19 +1,19 @@
-\documentclass[12pt]{beamer}
+\documentclass[aspectratio=169]{beamer}
 \usepackage{mathptmx}
 \usepackage{helvet}
 %\usepackage{courier}
 \usepackage{fancyvrb}
-\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}{frame=single, 
-%fontsize=\scriptsize, 
+\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}{frame=single,
+%fontsize=\scriptsize,
 %fontfamily=helvetica,
-numbersep=1mm, 
-numbers=left, 
+numbersep=1mm,
+numbers=left,
 formatcom=\color{orange}}
 %\usepackage[bitstream-charter]{mathdesign}
 \usepackage{listings}
 \lstset{commentstyle=\color{orange}, keywordstyle=\color{yellow} }
 
-\usetheme[⟨options⟩]{Boadilla}
+\usetheme{Boadilla}
 \useoutertheme{split}
 \usecolortheme{albatross}
 %\setbeamercolor*{normal text}{fg=white!65!black,bg=blue!80!black}
@@ -302,7 +302,7 @@ formatcom=\color{orange}}
 \begin{frame}[fragile]\frametitle{Funzioni su numeri}
   \begin{itemize}
   \item
-    concatena due stringhe:     \verb!CAT(var1, var2)! 
+    concatena due stringhe:     \verb!CAT(var1, var2)!
   \item
     estrae sottostringa:
     \verb!SUBSTR(var, inizio, lunghezza)!
