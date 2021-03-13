@@ -75,25 +75,25 @@ proc sort data=es.peso;
 run;
 proc means data=es.peso n nway noprint;
     var obiettivo;
-    by squadra;
+    class squadra;
     output out=raggiunto n=raggiunto;
     where obiettivo eq 1;
 run;
 proc means data=es.peso n nway noprint;
     var obiettivo;
-    by squadra;
+    class squadra;
     output out=totali n=componenti;
 run;
 data percentuali;
     merge raggiunto totali;
-    by squadra;
+    class squadra;
     percentuale=raggiunto/componenti*100;
 run;
 proc print data=percentuali;run;
 
-proc sort data=totali;
+proc sort data=percentuali;
     by descending percentuale;
-proc print data=totali;
+proc print data=percentuali;
 run;
 
 /*
