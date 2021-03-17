@@ -26,22 +26,6 @@ proc freq data=esame.fema;
 run;
 
 
-/* Creare un nuovo data set con i risultati ottenuti al punto precedente. */
-ods trace on;
-proc freq data=esame.fema;
-    tables EducationChar*State;
-    weight importo;
-
-run;
-ods trace off;
-
-proc freq data=esame.fema;
-	tables EducationChar*State;
-    weight importo;
-	ods output Freq.Table1.CrossTabFreqs = risultati;
-run;
-proc print data=risultati;run;
-
 /* Leggere il file di dati FEMA2.txt contenente, per ogni tipologia di emergenza, */
 /* un valore di severità  associato. */
 data legenda;
