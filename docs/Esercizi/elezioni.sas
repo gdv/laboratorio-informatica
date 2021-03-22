@@ -69,15 +69,16 @@ run;
 
 /* punto 5 */
 /* prima viene costruito un dataset dove il numero di voti non validi di ogni contea viene calcolato */
-proc means data=elezioni sum;
+proc means data=elezioni sum nway;
         var numero_voti;
         class county;
         where codice <= 2;
         output out = nonvalidi sum = nonvalidi;
 run;
 
+/* punto 6 */
 /* costruiamo un dataset con il numero totale di voti di ogni contea */
-proc means data=elezioni sum;
+proc means data=elezioni sum nway;
         var numero_voti;
         class county;
         output out = voti_totale sum = voti;
@@ -107,7 +108,7 @@ proc print data=punto5d;
      var dove_percentuale dove_assoluto;
 run;
 
-/* punto 6 */
+/* punto 7 */
 ods trace on;
 proc freq data=elezioni;
     tables codice*county;
