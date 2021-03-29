@@ -3,14 +3,13 @@
 Si richiede di scrivere un programma SAS per l’analisi dei dati presenti nei file 
 multe.csv e codici.csv  secondo i punti che seguono.
 
-Si può importare il file di dati.
+E' possibile importare il dataset.
 */
 
 /*
 Leggere i dati del file multe.csv in un dataset permanente. Se non specificato, ogni operazione deve essere eseguita su tale dataset. Ogni osservazione corrisponde ad una multa comminata. Le variabili sono presenti nel file.
 */
 libname b '/folders/myshortcuts/repo/dati';
-
 /*
 Controllare se sono presenti valori mancanti.
 */
@@ -22,7 +21,7 @@ proc print data=b.multe;
     where fine_amount = .;
 run;
 /*
-Creare una nuova variabile ANNO ottenuta prendendo la parte intera di MARKED TIME diviso 100.
+Creare una nuova variabile ANNO a partire dalla variabile Issue_Date.
 */
 
 proc contents data=b.multe;
