@@ -1,6 +1,6 @@
 libname corso '/folders/myfolders';
 data vento;
-        infile '/folders/myfolders/vento.csv' dlm=',' dsd;
+        infile '/folders/myfolders/vento.csv' dlm=',' dsd firstobs=2;
         input anno mese giorno velocita stazione;
 run;
 	
