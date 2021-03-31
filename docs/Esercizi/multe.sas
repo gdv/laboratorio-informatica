@@ -29,7 +29,7 @@ run;
 
 data b.multe;
     set b.multe;
-    anno = int(Marked_Time / 100);
+    anno = year(Issue_Date);
 run;
 
 /*
