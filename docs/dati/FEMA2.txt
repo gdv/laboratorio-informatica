@@ -1,3 +1,4 @@
+Value;Type
 7;Coastal Storm
 19;Dam/Levee Break
 6;Drought
